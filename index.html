@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  	<meta charset="UTF-8">
+  	<title>Crystals Collector Game</title>
+  	<link rel="stylesheet" tyle="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  	
+
+  	<script src="https://code.jquery.com/jquery.js"></script>
+  	<script src="assets/javascript/game.js"></script>
+
+</head>
+
+<body>
+
+<div class="container">
+		<div id="MainBody">
+
+		<div class ="row">
+			<div class="col-md-3">
+				<div id ="crystalsCollectorBox">
+					<h2>Crystals Collector!</h2>
+				</div>
+			</div>
+		</div>
+
+		<div class ="row">
+			<div class="col-md-6">
+				<div id ="instructionsBox">
+					<p><br><strong>You will be given a random number at the start of the game.<br><br><br>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.<br><br><br> Win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.<br><br><br>The value of each crystal is hidden from you until you click on it.<br><br><br>Each time when the game starts, the game will change the values of each crystal.</strong></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-3">
+				<div id="randomNumberBox">
+					
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div id="winLossBox">
+					<div id="youWin">
+					<div id="youLose">
+						<div id="wins">
+							<p><b>Wins: </b></p>
+							<div id="wins">
+							</div>
+						</div>
+						<div id="losses">
+							<p><b>Losses: </b></p>
+							<div id="losses">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div id="buttonContainer">
+			<div class="col-md-1">
+				<button type="button" id="buttonBox1"><img src="assets/images/blue_crystal.jpg" style="width: 75px; height:75px;"></button>
+			</div>
+			<div class="col-md-1">
+				<button type="button" id="buttonBox2"><img src="assets/images/green_crystal.jpg" style="width: 75px; height: 75px;"></button>					
+			</div>
+			<div class="col-md-1">
+				<button type="button" id="buttonBox3"><img src="assets/images/orange_crystal.jpg" style="width: 75px; height: 75px;"></button>
+			</div>
+			<div class="col-md-1">
+				<button type="button" id="buttonBox4"><img src="assets/images/red_crystal.jpg" style="width: 75px; height: 75px;"></button>
+			</div>
+		</div>
+
+			<div class="row">
+				<div class="col-md-3">
+					<div id="yourTotalScoreBox">
+					<p><b>Your total score is:</b></p>
+				</div>
+			</div>
+		</div>
+
+			<div class="row">
+				<div class="col-md-3">
+					<div id="totalScoreBox">
+				</div>
+			</div>
+		</div>
+  			<div class="row">
+  				<div class="col-md-2">
+  					<button type="button" id="reset-button"><p><b>Reset</b></p>
+  					</button>
+  				</div>
+  			</div>
+</div>
+	</div>
+</div>
+</body>
+</html>
+

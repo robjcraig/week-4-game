@@ -1,0 +1,131 @@
+#MainBody {
+	height: 900px;
+	width: 100%;
+	background: url(https://static5.depositphotos.com/1000244/483/v/950/depositphotos_4834816-stock-illustration-honeycomb-background.jpg);
+	border: solid black 1px;
+}
+#crystalsCollectorBox {
+	float: left;
+	padding-left: 5px;
+	margin-left: 10px;
+	margin-top: 5px;
+	background-color: orange;
+	border: solid black 1px;
+	color: white;
+	height: 80px;
+	width: 100%;
+	line-height: 100%;
+}
+#instructionsBox {
+	float: left;
+	padding-left: 5px;
+	margin-left: 10px;
+	margin-top: 5px;
+	background-color: white;
+	border: solid black 1px;
+	color: green;
+	font-size: 15px;
+	height: 375px;
+	width: 100%;
+}
+#randomNumberBox {
+	float: left;
+	padding-top: 5px;
+	padding-left: 5px;
+	margin-left: 10px;
+	margin-top: 20px;
+	background-color: #45cea2;
+	border: solid black 1px;
+	color: black;
+	font-size: 18px;
+	height: 75px;
+	width: 100%;
+}
+#winLossBox {
+	float: left;
+	padding-top: 15px;
+	padding-left: 15px;
+	margin-left: 10px;
+	margin-top: 10px;
+	background-color: #39f1dc;
+	border: solid black 1px;
+	color: black;
+	font-size: 14px;
+	height:90px;
+	width: 100%;
+	line-height: 100%;
+}
+#buttonContainer {
+	float: left;
+	padding-top: 5px;
+	padding-left: 5px;
+	margin-left: 20px;
+	margin-top: 5px;
+	color: black;
+	font-size: 14px;
+	height: 80px;
+	width: 100%;
+}
+#buttonBox1 {
+	border: solid black 1px;
+	width: 85px;
+	height: 85px;
+	background-color: white;
+}
+#buttonBox2 {
+	border: solid black 1px;
+	width: 85px;
+	height: 85px;
+	background-color: white;
+}
+#buttonBox3 {
+	border: solid black 1px;
+	width: 85px;
+	height: 85px;
+	background-color: white;
+}
+#buttonBox4 {
+	border: solid black 1px;
+	width: 85px;
+	height: 85px;
+	background-color: white;
+}
+#yourTotalScoreBox {
+	float: left;
+	padding-top: 5px;
+	padding-left: 10px;
+	margin-left: 40px;
+	margin-top: 20px;
+	background-color: #459a70;
+	border: solid black 1px;
+	color: black;
+	font-size: 18px;
+	height: 35px;
+	width: 100%;
+}
+#totalScoreBox {
+	float: left;
+	padding-top: 5px;
+	padding-left: 10px;
+	margin-left: 40px;
+	margin-top: 10px;
+	background-color: #459a70;
+	border: solid black 1px;
+	color: black;
+	font-size: 24px;
+	height: 80px;
+	width: 100%;
+}
+#reset-button {
+	float: left;
+	padding-top: 5px;
+	padding-left: 10px;
+	margin-left: 40px;
+	margin-top: 20px;
+	background-color: #459a70;
+	border: solid black 1px;
+	color: black;
+	font-size: 18px;
+	height: 35px;
+	width: 100%;
+}
